@@ -66,8 +66,8 @@ void main() {
 		int j = 0;
 		int endJ = 0; // for j under middle row
 
-					  // LEFT free area
-					  // check if we pass middle row
+		// LEFT free area
+		// check if we pass middle row
 		if (i < row / 2)
 		{
 			for (; j < i; j++)
@@ -83,7 +83,6 @@ void main() {
 				cout << "\t";
 			}
 		}
-
 		// print area with numbers
 		// check if we are above middlerow
 		if (i < row / 2)
@@ -110,8 +109,6 @@ void main() {
 				}
 			}
 		}
-
-
 		//RIGHT free area
 		for (; j < col; j++)
 		{
@@ -119,7 +116,6 @@ void main() {
 		}
 		cout << endl << endl;
 	}
-
 	// print max value in printed area
 	cout << "Max Value is: " << maxValue;
 	cout << endl << endl;
