@@ -77,7 +77,7 @@ void main() {
 		}
 	}
 
-	cout << endl;
+	system("cls");
 	drawChartA();
 
 	// mesage for Game over
