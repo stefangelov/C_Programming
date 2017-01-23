@@ -78,7 +78,7 @@ void main() {
 	// mesage for Game over
 	cout << endl << "G A M E  I S  O V E R !" << endl << endl;
 
-	if (isGameFinished() && choiseCounter == 9 )
+	if (!isGameFinished() && choiseCounter == 9 )
 	{
 		cout << "\tNO Winner!" << endl << endl;
 	}
@@ -144,6 +144,10 @@ void drawChartA(){
 	}
 }
 
+void drawChartB(){
+	// Not Implement
+}
+
 void randomizePlayers() {
 	if (rand() % 2 != 0)
 	{
@@ -198,8 +202,8 @@ bool isGameFinished(){
 		return true;
 	}
 
+	// in all other cases return false
 	return false;
-
 }
 
 bool insertChar(char player, int position){
