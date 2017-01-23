@@ -235,12 +235,5 @@ bool insertChar(char player, int position){
 }
 
 void switchPlayer(){
-	if (activePlayer == player1)
-	{
-		activePlayer = player2;
-	}
-	else
-	{
-		activePlayer = player1;
-	}
+	activePlayer == player1 ? activePlayer = player2 : activePlayer = player1;
 }
