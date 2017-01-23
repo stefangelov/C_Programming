@@ -70,13 +70,18 @@ void main() {
 
 		// swich players
 		switchPlayer();
+
+		if (choiseCounter == 9)
+		{
+			break;
+		}
 	}
 
 	cout << endl;
 	drawChartA();
 
 	// mesage for Game over
-	cout << endl << "G A M E  I S  O V E R !" << endl << endl;
+	cout << endl << "G A M E   O V E R !" << endl << endl;
 
 	if (!isGameFinished() && choiseCounter == 9 )
 	{
@@ -160,12 +165,6 @@ void randomizePlayers() {
 }
 
 bool isGameFinished(){
-	// check how meny times has played
-	if (choiseCounter == 9)
-	{
-		return true;
-	}
-
 	// check rows
 	for (int i = 0; i < 3; i++)
 	{
