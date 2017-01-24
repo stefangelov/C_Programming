@@ -42,6 +42,8 @@ void main() {
 
 // Solution for task 1
 /*
+Zadacha 1: Izvedete na ekrana edin pasaj ot lyubimo stihotvorenie ili pese kato posochite avtora ili izpylnitlq.
+izpolzwajte excape-posledovatelnostite za formtirane.
 Задание 1: Изведете на екрана един пасаж от любимо стихотворение или песен като посочите  автора или изпълнителя.
 Използвайте escape-последователностите за форматиране.
 */
@@ -57,6 +59,8 @@ int Probl_01() {
 
 // Solution for task 2
 /*
+Zadacha 2: Izvedete na ekrana stihotworenieto «Every hunter wants…» taka, che vseki "cvqt" da
+zapochva na now red i sys syotvetniq broj tabulacii.
 Задание 2: Изведете на екрана стихотворението «Every hunter wants…» така, че всеки „цвят“ да
 започва на нов ред и със съответния брой табулации.
 */
@@ -70,6 +74,8 @@ int Probl_02(){
 
 // Solution for task 3
 /*
+Zadacha 3: Napishete obqva za prodavane na neshto i izvedete obqvata na ekrana vyv vida,
+v koito trqbva da izblejda.
 Задание 3: Напишете обява за продаване на нещо и изведете обявата на екрана във вида,
 в който трябва да изглежда.
 */

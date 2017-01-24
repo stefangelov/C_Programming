@@ -1,8 +1,8 @@
 #include <iostream>
 #include <string>
-using namespace std;
-
 #include <math.h>
+
+using namespace std;
 
 int Probl_01();
 int Probl_02();
@@ -45,6 +45,10 @@ void main() {
 
 // Solution for task 1
 /*
+Zadacha 1.
+Potrebitelq vyvejda ot klaviaturata razstoqnie do letishteto i vremeto,
+za koeto trqbva da stigne. Izchislete skorostta, s kqto trqbva da se dviji.
+
 Задание 1.
 Потребителят въвежда от клавиатурата разстоянието до летището и времето, 
 за което трябва да стигне. Изчислете скоростта, с която трябва да се движи.
@@ -75,6 +79,10 @@ int Probl_01() {
 
 // Solution for task 2
 /*
+Zadacha 2.
+Potrebitelq vyvyejda ot klaviaturata vreme na nachaloto i vreme na kraq na telefonno obavdane (chasove, minuti, sekundi).
+Smetnete kolko shte struva razgovoryt, ako cenata na 1 minuta e - 30 stotinki.
+
 Задание 2.
 Потребителят въвежда от клавиатурата време на началото и време на края на телефонно обаждане (часове, минути и секунди). 
 Сметнете колко ще струва разговорът, ако цената за 1 минута е – 30 стотинки.
@@ -120,6 +128,10 @@ int Probl_02(){
 
 // Solution for task 3
 /*
+Zadacha 3.
+Potrebitelqt vyvejda ot klaviaturata razstoqni, razhod na benzi na 100 km i cenite na tri vida benzin.
+Izvedete na ekrana sravnitelna tablica sys stojnostta na pytuvaneto s vseki ot trite vida benzin.
+
 Задание 3.
 Потребителят въвежда от клавиатурата разстояние, разход на бензин на 100 км и цените на три вида бензин. 
 Изведете на екрана сравнителна таблица със стойността на пътуването с всеки от трите вида бензин.

@@ -51,6 +51,8 @@ void main() {
 
 // Solution for task 1
 /*
+Zadacha 1. Potrebitlq nabira na klaviaturata vreme v sekundi. Neobhodimo e da napishtete programa,
+koqto da obyrne vyvejdanite ot potrebitelq sekundi w chasove, minuti, sekundi i da gi izvejda na ekran.
 Задание 1. Потребителят набира на клавиатурата време в секунди. Необходимо е да напишете програма, 
 която да обърне въвежданите от потребителя секунди в часове, минути, секунди и да ги извежда на екран.
 */
@@ -77,6 +79,8 @@ int Probl_01() {
 
 // Solution for task 2
 /*
+Zadacha 2. Napishete programa, koqto da preobrazuva vyvedeno ot klaviaturata drobno chislo v parichen format.
+Naprimer, chisloto 12,5 trqbva da byde preobrazuvano vyv vid 12 lv. i 50 st.
 Задание 2. Напишете програма, която да преобразува въведено от клавиатурата дробно число в паричен формат. 
 Например, числото 12,5 трябва да бъде преобразувано във вид 12 лв. 50 ст.
 */
@@ -99,6 +103,16 @@ int Probl_02(){
 
 // Solution for task 3
 /*
+Zadacha 3. Napishete programa, izchislqvashta s kakva skorost begachyt e probqgal distanciqta.
+Preporychitelen vid na ekrana po vreme na izpylnenie na programata e daden po-dolu:
+
+Izchislqvane skorostta na bqgane
+Vyvejdane dyljinata na distanciqta (metri) = 1000
+Vyvejdane na vreme (min.sek) = 3.25
+Distanciq: 1000 m
+Vreme: 3 min 25 sek = 205 sek;
+Vie bqgahte sys skorost 17.56 km/ch
+
 Задание 3. Напишете програма, изчисляваща с каква скорост бегачът е пробягал дистанцията. 
 Препоръчителен вид на екрана по време на изпълнение на програмата е даден по-долу:
 

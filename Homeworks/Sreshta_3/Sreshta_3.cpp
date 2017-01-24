@@ -42,6 +42,7 @@ void main() {
 
 // Solution for task 1
 /*
+Zadadeni sa tri syprotivleniq R1, R2, R3. Izchislete znachenieto na syprotivlenieto R0 po formulata: 1/R0 = 1/R1+1/R2+1/R3.
 Зададени са три съпротивления R1, R2, R3 . Изчислете значението на съпротивление  R0 по формулата: 1/R0 = 1/R1+1/R2+1/R3.
 */
 int Probl_01() {
@@ -68,6 +69,9 @@ int Probl_01() {
 
 // Solution for task 2
 /*
+Po zadadena obikolka na okryjnost izchislete ploshta na kryga po formula S = pi*R2,
+radiusa izchisli po formulata za obikolka na okryvnost: L=2*pi*R
+Zabelejka: pi=3.14
 По зададена обиколка на окръжност изчислете площта на кръга по формула  S =  pi*R2, 
 радиуса изчисли по формулата за обиколка на окръжност: L=2*pi *R
 Забележка: pi = 3.14
@@ -92,6 +96,8 @@ int Probl_02(){
 
 // Solution for task 3
 /*
+Zadacha 3: Izchislete izminatoto razstoqnie pri prawolinejno rawnouskoritelno dvijenie po
+formulata S = v*t + (a*t2) / 2, kydeto v - skorosta, t - vremeto, a - uskorenie;
 Задание 3: Изчислете изминатото разстояние при праволинейно равноускорително движение по 
 формула S = v*t + (a*t2) / 2, където v – скорост, t – време, а – ускорение.
 */
