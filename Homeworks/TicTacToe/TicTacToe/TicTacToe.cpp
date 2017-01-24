@@ -18,10 +18,6 @@ bool positionFree;
 //This variable holds the position selected by the active player
 int position;
 
-// NEW GLOBAL VARIABLE
-// hold how many times has chosen position
-int choiseCounter = 0;
-
 /*
 |X|
 -+-+-
@@ -50,7 +46,9 @@ void main() {
 	srand(time(NULL));
 	drawPositions();
 
-	
+	// NEW LOCALVARIABLE
+	// hold how many times has chosen position
+	int choiseCounter = 0;
 
 	while (! isGameFinished())
 	{
