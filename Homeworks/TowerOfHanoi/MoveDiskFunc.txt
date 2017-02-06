@@ -1,0 +1,19 @@
+void MoveDiskFromStartToEnd(int diskNum){
+	string checkString = "";
+	for (int j = 0; j < uChND; j++)
+	{
+		checkString = checkString + " ";
+	}
+	int lastFreeRow = 0;
+	for (; lastFreeRow < uChND; lastFreeRow++)
+	{
+		if (endArr[lastFreeRow] != checkString)
+		{
+			lastFreeRow--;
+			break;
+		}
+	}
+	string tempString = startArr[diskNum - 1];
+	startArr[diskNum - 1] = endArr[lastFreeRow];
+	endArr[lastFreeRow] = tempString;
+}
