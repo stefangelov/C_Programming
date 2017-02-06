@@ -1,3 +1,4 @@
+//Coppy and modify it for every case
 void MoveDiskFromStartToEnd(int diskNum){
 	string checkString = "";
 	for (int j = 0; j < uChND; j++)
