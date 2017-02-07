@@ -1,3 +1,15 @@
+/*
+This is an animated version of the algorithm 
+for solving Tower of Hanoi problem.
+
+User need to enter number of the disks and 
+the delays between stages in seconds.
+
+If User choose '0' for the delay will be 
+necessary to press key for each stage of 
+the solution.
+*/
+
 #include <iostream>
 #include <string>
 #include <stdio.h>
@@ -105,7 +117,7 @@ void MoveDelay(){
 }
 
 void ExpNotePrint(){
-	cout << "This App solve Tower of Hanoi" << endl;
+	cout << "This App solve Tower of Hanoi" << endl << endl;
 }
 
 void UI(){
@@ -113,7 +125,8 @@ void UI(){
 	bool isInputOk = false;
 	// take number of disk from User
 	while (!isInputOk)
-	{
+	{	
+		cout << "It looks good at a maximum of 12 disk!" << endl << endl;
 		cout << "Please enter number of disks (1-64): ";
 		cin >> (int)numberOfDisks;
 		if (numberOfDisks > 0 && numberOfDisks <= 64)
