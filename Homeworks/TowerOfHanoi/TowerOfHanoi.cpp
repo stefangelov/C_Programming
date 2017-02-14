@@ -1,6 +1,6 @@
 
 /*
-This is an animated version of the algorithm 
+This is an visualized version of the algorithm 
 for solving Tower of Hanoi problem.
 
 User need to enter number of the disks and 
