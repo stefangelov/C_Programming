@@ -9,7 +9,7 @@ int *GenerateArr(int dim);
 void AddRandValuesToArr(int *arr, int size);
 void UserRange(int *range, int sizeOfArr);
 void PrintArr(int *arr, int size);
-int CalcSumInRange(int *arr, int *range);
+double CalcAverageInRange(int *arr, int *range);
 
 /*
 Da se nameri sredno aritmetichno na stoinostite ot masiv popadashti
@@ -36,7 +36,7 @@ void main(){
 	PrintArr(range, 2);
 
 	cout << endl;
-	cout << "The sum in the range is: " << CalcSumInRange(arr, range);
+	cout << "The average in the range is: " << CalcAverageInRange(arr, range);
 
 	
 	cout << endl << endl;
@@ -45,12 +45,13 @@ void main(){
 	free(range);
 }
 
-int CalcSumInRange(int *arr, int *range) {
-	int sum = 0;
+double CalcAverageInRange(int *arr, int *range) {
+	double sum = 0;
 	for (int i = *range - 1; i < *(range + 1); i++)
 	{
 		sum = sum + *(arr + i);
 	}
+	sum = sum / (*(range + 1) - *range + 1);
 	return sum;
 }
 
