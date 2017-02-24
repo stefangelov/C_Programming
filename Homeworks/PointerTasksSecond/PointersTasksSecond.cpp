@@ -46,13 +46,13 @@ void main(){
 }
 
 double CalcAverageInRange(int *arr, int *range) {
-	double sum = 0;
+	double average = 0;
 	for (int i = *range - 1; i < *(range + 1); i++)
 	{
-		sum = sum + *(arr + i);
+		average = average + *(arr + i);
 	}
-	sum = sum / (*(range + 1) - *range + 1);
-	return sum;
+	average = average / (*(range + 1) - *range + 1);
+	return average;
 }
 
 void UserRange(int *range, int size) { // size is the size of the ARR
